@@ -143,5 +143,3 @@ with tab3:
     * Github링크
     > [Github](https://github.com/tkd8973/Data_Visualization) 
     '''
-
-       
