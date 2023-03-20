@@ -63,7 +63,7 @@ def pie():
     st.plotly_chart(fig)
 
 
-df = pd.read_excel('https://github.com/tkd8973/Data_Visualization/blob/main/KDX2021_SSC_ONLINE_DATA.xlsx')
+df = pd.read_excel('https://github.com/tkd8973/Data_Visualization/raw/main/KDX2021_SSC_ONLINE_DATA.xlsx')
 df2 = df.copy()
 datas = Preprocess(df2)
 tab0, tab1, tab2, tab3 = st.tabs(["🏠 Homepage", "📈 Chart", "🗃 Data", "🖇️ Link"])
